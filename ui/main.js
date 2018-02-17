@@ -17,6 +17,6 @@ button.onclick = function (){
       //not done
   };
   //Make the request
-  request.open('GET','http://abhijitdas0909.imad.hasura-app.io/', true);
+  request.open('GET','http://abhijitdas0909.imad.hasura-app.io/counter', true);
   request.send(null);
 };
